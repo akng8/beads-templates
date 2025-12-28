@@ -6,7 +6,7 @@ Reusable templates for adding [Beads](https://github.com/steveyegge/beads) (bd) 
 
 ```bash
 # Clone this repo
-git clone https://github.com/YOUR_USERNAME/beads-templates.git
+git clone https://github.com/akng8/beads-templates.git
 
 # Copy to your project
 PROJECT=/path/to/your/project
@@ -25,8 +25,8 @@ chmod +x scripts/bd-init.sh .claude/hooks/session-start.sh
 ```bash
 PROJECT=/path/to/project && \
   mkdir -p $PROJECT/scripts $PROJECT/.claude/hooks && \
-  curl -o $PROJECT/scripts/bd-init.sh https://raw.githubusercontent.com/YOUR_USERNAME/beads-templates/main/scripts/bd-init.sh && \
-  curl -o $PROJECT/.claude/hooks/session-start.sh https://raw.githubusercontent.com/YOUR_USERNAME/beads-templates/main/.claude/hooks/session-start.sh && \
+  curl -o $PROJECT/scripts/bd-init.sh https://raw.githubusercontent.com/akng8/beads-templates/main/scripts/bd-init.sh && \
+  curl -o $PROJECT/.claude/hooks/session-start.sh https://raw.githubusercontent.com/akng8/beads-templates/main/.claude/hooks/session-start.sh && \
   chmod +x $PROJECT/scripts/bd-init.sh $PROJECT/.claude/hooks/session-start.sh && \
   cd $PROJECT && ./scripts/bd-init.sh
 ```
